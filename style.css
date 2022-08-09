@@ -1,0 +1,473 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top_bar{
+    background-color: rgb(233 33 92);
+    height: 30px;
+    
+}
+
+.details{
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 163px;
+    font-size: small;
+    color: white;
+
+}
+
+.socials{
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 111px;
+
+}
+
+.socials a{
+    padding: 0px 11px;
+    color: white;
+}
+
+.main_header{
+    border: 1px solid white;
+    background-color: white;
+    height: 89px;
+}
+
+.logo{  
+    display: inline-block;
+    position: absolute;
+    top: 59px;
+    left: 150px;
+    font-size: 24px;
+
+}
+
+.nav_bar{
+   
+    position: absolute;
+    top: 34px;
+    right: 113px;
+}
+.nav_bar li{
+    display: inline-block;
+    margin: 13px 10px;
+    list-style: none;
+}
+
+.nav_bar li a{
+    font-weight: 400;
+    color: rgb(0,0,0);
+    padding: 0px 9px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#vacation{
+    color: black;
+    font-weight: bold;
+}
+
+#rental{
+    color: rgb(255 0 106);
+    font-weight: bold;
+}
+
+.nav_bar li a:hover{
+    color: rgb(255 0 106);
+    text-decoration: underline;
+}
+
+.bg_image{
+    width: 1583px;
+    height: 770px;
+}
+
+
+/* For Input Form */
+
+.container{                                             
+    border: 2px solid white;
+    background-color: white;
+    width: 422px;
+    height: 476px;
+    position: absolute;
+    top: 100px;
+    right: 14px;
+    border-radius: 7px;
+     margin: 122px 131px; 
+     /* opacity: 95%; */
+}
+
+.box1{
+    border: 2px solid rgb(255, 255, 255);
+    width: 372px;
+    height: 460px;
+    background-color: white;
+    position: absolute;
+    top: 790px;
+    margin-left: 162px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+   
+}
+
+.box1 img{
+    width: 326px;
+    height: 190px;
+    margin: 20px;
+}
+
+.box2 img{
+    width: 326px;
+    height: 190px;
+    margin: 20px;
+}
+
+.box3 img{
+    width: 326px;
+    height: 190px;
+    margin: 20px;
+}
+
+.box2{
+    border: 2px solid white;
+    width: 372px;
+    height: 460px;
+    background-color: white;
+    position: absolute;
+    top: 790px;
+    margin-left: 602px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+.box3{
+    border: 2px solid white;
+    width: 372px;
+    height: 460px;
+    background-color: white;
+    position: absolute;
+    top: 790px;
+    margin-left: 1043px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+.container h4{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+#name input{
+    border-radius: 7px;
+    padding: 18px 12px;
+    width: 325px;
+    font-size: 15px;
+    margin-top: -9px;
+    margin-left: 37px;
+    background-color: rgb(241,241,241);
+    color: black;
+    border: 2px solid white;
+}
+
+.credentials input{
+    border-radius: 7px;
+    margin-left: 37px;
+    margin-top: 11px;
+    padding: 18px 8px;
+    width: 136px;
+    font-size: 15px;
+    background-color: rgb(241,241,241);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+
+}
+
+.choices select{
+    border-radius: 7px;
+    margin-top: 11px;
+    margin-left: 37px;
+    padding: 18px 8px;
+    width: 156px;
+    font-size: 15px;
+    background-color: rgb(241,241,241   );
+    border: 2px solid white;
+  
+}
+
+.submit input{
+    border-radius: 7px;
+    padding: 18px 12px;
+    width: 352px;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 37px;
+    background-color: rgb(243 82 137);
+    color: white;
+    border: 2px solid rgb(243 82 137);
+
+}
+
+.bg_mid{
+    background-color: white;
+    height: 450px;
+
+}
+
+
+::placeholder{
+    color: black;
+}
+
+.welcome{
+    color: white;
+    position: absolute;
+    top: 311px;
+    left: 138px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    top: 357px;
+    left: 138px;
+    font-family: 'Playfair Display', serif;
+    font-size: 81px;
+    font-weight: bolder;
+}
+
+.learn_btn{
+    position: absolute;
+    top: 604px;
+    left: 138px;
+    font-size: 15px;
+    background-color: rgb(243 82 137);
+    color: white;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: 2px solid rgb(243 82 137);
+
+
+}
+
+.learn_btn:hover{
+    background-color: transparent;
+    color: rgb(243 82 137);
+}
+
+.contact_btn:hover{
+    background-color: transparent;
+    color: white;
+}
+.contact_btn{
+    position: absolute;
+    top: 604px;
+    left: 315px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: 2px solid white;
+}
+
+#map{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0px;
+    
+}
+
+#accomodation{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0px;
+    
+}
+
+#exp{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0px;
+    
+}
+
+.caption{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 7px 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.read_more{
+    border-radius: 5px;
+    font-size: 12px;
+    border: 2px solid rgb(243 82 137);
+    background-color: rgb(243 82 137);
+    color: white;
+    padding: 10px 16px;
+    margin: 1px 131px;
+    
+}
+
+.read_more:hover{
+    background-color: transparent;
+    color: rgb(243 82 137);
+}
+
+.submit input:hover{
+    background-color: transparent;
+    color: rgb(243 82 137);
+}
+
+.bottom{
+    border: 2px solid rgb(32, 35, 36);
+    background-color: rgb(32, 35, 36);
+    display: block;
+    height: 400px;
+}
+
+.vacation_rental{
+    color: white;
+    margin-left: 191px;
+    margin-top: 85px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 300px;
+    height: 178px;
+}
+
+.vacation_rental h4{
+    font-size: 22px;
+}
+
+.vacation_rental p{
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+
+}
+
+.vacation_rental a{
+    font-size: 14px;
+    color: rgb(243 82 137);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.services{
+    color: white;
+    margin-left: 27px;
+    margin-top: 85px;
+    display: inline-block;
+    position: absolute;
+}
+
+.services h4{
+    font-size: 22px;
+}
+
+.services p{
+    font-size: 13px;
+    color: rgb(163 163 163);
+}
+
+.offerings{
+    /* border: 2px solid red; */
+    color: white;
+    margin-left: 370px;
+    margin-top: 85px;
+    display: inline-block;
+    width: 286px;
+    height: 187px;
+    position: absolute;
+
+}
+
+.offerings h4{
+    font-size: 22px;
+}
+
+.offerings p{
+    border: 1px solid gray;
+    font-size: 11px;
+    padding: 5px 6px;
+    border-radius: 3px;
+    margin: 4px 3px;
+    color: rgb(163 163 163);
+    display: inline-block;
+}
+
+.subscribe{
+    color: white;
+    margin-left: 692px;
+    margin-top: 85px;
+    display: inline-block;
+    position: absolute;
+}
+
+.subscribe h4{
+    font-size: 22px;
+}
+
+.subscribe input{
+    padding: 15px 8px;
+    background-color: rgb(243 82 137);
+    width: 217px;
+    border: 2px solid rgb(243 82 137);
+    color: white;
+}
+
+.bottom_bar{
+    background-color: rgb(21 22 22);
+    height: 120px;
+}
+
+.subscribe a{
+    background-color: rgb(32, 35, 36);
+    color: white;
+    border: 1px solid gray;
+    padding: 8px 11px;
+    margin: 5px 4px;
+    font-size: 16px;
+}
+
+#left{
+    color: gray;
+    display: inline-block;
+    margin: 47px 251px;
+    font-size: 14px;
+    padding: 0px 24px;
+}
+
+.bottom_bar ul{
+    display: inline-block;
+    margin: -4px 218px;
+}
+.bottom_bar li{
+    float: left;
+    list-style: none;
+}
+
+.bottom_bar li a{
+    padding: 0px 13px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
